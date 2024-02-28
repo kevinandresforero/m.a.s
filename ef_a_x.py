@@ -10,7 +10,7 @@ omega = 2 * np.pi  # Frecuencia angular, por ejemplo 2*pi para 1 ciclo/seg
 t = np.linspace(0, 10, 1000)
 
 # Calcula la ecuación
-velocidad = R * np.cos(omega * t) + np.sqrt(L**2 - R**2 * np.sin(omega * t)**2)
+posicion = R * np.cos(omega * t) + np.sqrt(L**2 - R**2 * np.sin(omega * t)**2)
 
 # Calcula los componentes de la ecuación
 cos_omega_t = np.cos(omega * t)
@@ -29,9 +29,9 @@ segundo_termino = segundo_termino_numerador / (4 * denominador)
 # Combinar los términos para obtener la segunda derivada d^2x/dt^2
 aceleracion = primer_termino - segundo_termino
 
-plt.plot(aceleracion, velocidad)
-plt.title('Espacio de Fase aceleracion vs velocidad')
+plt.plot(aceleracion, posicion)
+plt.title('Espacio de Fase aceleracion vs posición')
 plt.xlabel('aceleracion (m/s²)')
-plt.ylabel('velocidad (m/s)')
+plt.ylabel('x (m)')
 plt.grid(True)
 plt.show()
