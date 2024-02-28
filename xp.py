@@ -19,8 +19,8 @@ import matplotlib.pyplot as plt
 # Ahora, grafica el resultado
 plt.plot(t, resultado)
 plt.xlabel('Tiempo (s)')
-plt.ylabel('Resultado')
-plt.title('Gráfico de Rcos(wt) + sqrt(L^2 - R^2sen^2(wt))')
+plt.ylabel('x (m)')
+plt.title('Gráfico de x')
 plt.grid(True)
 plt.show()
 

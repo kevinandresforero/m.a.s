@@ -1,5 +1,4 @@
 import numpy as np
-import matplotlib.pyplot as plt
 
 # R# Define las constantes
 R = 1.0  # Por ejemplo, 1 metro
