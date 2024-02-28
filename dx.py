@@ -16,8 +16,8 @@ import matplotlib.pyplot as plt
 # Graficar
 plt.plot(t, y)
 plt.title('Función dx/dt = - A*sen(wt)')
-plt.xlabel('t')
-plt.ylabel('- A*sen(wt)')
+plt.xlabel('t (s)')
+plt.ylabel('Velocidad (m/s)')
 plt.grid(True)
 plt.show()
 

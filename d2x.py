@@ -16,8 +16,8 @@ import matplotlib.pyplot as plt
 # Graficar
 plt.plot(t, y)
 plt.title('Función d²x/dt = - A * w² *sen(wt)')
-plt.xlabel('t')
-plt.ylabel('- Aw²sen(wt)')
+plt.xlabel('t (s)')
+plt.ylabel('Aceleración (m/s²)')
 plt.grid(True)
 plt.show()
 

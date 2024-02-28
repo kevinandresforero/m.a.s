@@ -16,8 +16,8 @@ import matplotlib.pyplot as plt
 # Graficar
 plt.plot(t, y)
 plt.title('Función A*cos(wt)')
-plt.xlabel('t')
-plt.ylabel('A*cos(wt)')
+plt.xlabel('t (s)')
+plt.ylabel('x (m)')
 plt.grid(True)
 plt.show()
 
