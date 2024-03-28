@@ -10,7 +10,7 @@ phi1 = 0  # Fase del péndulo 1
 phi2 = np.pi/2  # Fase del péndulo 2
 
 # Rango de tiempo
-t = np.linspace(0, x|10*np.pi, 1000)
+t = np.linspace(0, 10*np.pi, 1000)
 
 # Cálculo de las posiciones
 x = A1 * np.sin(w1 * t + phi1)
