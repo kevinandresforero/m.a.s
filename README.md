@@ -18,13 +18,6 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
 
 
 <!-- PROJECT LOGO -->
@@ -98,8 +91,8 @@ se pide una confianza mayor al 0.8 de confianza y se retorna la emocion.
 
 En esta sección deberías enumerar los principales frameworks/bibliotecas utilizados para arrancar tu proyecto.
 
-absl-py==2.1.0 Apache Software License (Apache 2.0) libre
-astunparse==1.6.3 Licencia BSD libre
+* absl-py==2.1.0 Apache Software License (Apache 2.0) libre
+* astunparse==1.6.3 Licencia BSD libre
 attrs==24.2.0 MIT License libre
 beautifulsoup4==4.12.3 MIT License libre
 blinker==1.8.2 MIT License libre
